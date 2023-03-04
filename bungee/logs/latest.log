@@ -1,0 +1,56 @@
+[23:18:43] [main/INFO]: Using mbed TLS based native cipher.
+[23:18:43] [main/INFO]: Using zlib based native compressor.
+[23:18:43] [main/INFO]: Enabled Waterfall version git:Waterfall-Bootstrap:1.19-R0.1-SNAPSHOT:dca72c2:511
+[23:18:43] [main/INFO]: Not on Windows, attempting to use enhanced EpollEventLoop
+[23:18:43] [main/INFO]: Epoll is working, utilising it!
+[23:18:44] [main/INFO]: Discovered module: ModuleSpec(name=cmd_alert, file=modules/cmd_alert.jar, provider=JenkinsModuleSource())
+[23:18:44] [main/INFO]: Discovered module: ModuleSpec(name=cmd_find, file=modules/cmd_find.jar, provider=JenkinsModuleSource())
+[23:18:44] [main/INFO]: Discovered module: ModuleSpec(name=cmd_list, file=modules/cmd_list.jar, provider=JenkinsModuleSource())
+[23:18:44] [main/INFO]: Discovered module: ModuleSpec(name=cmd_send, file=modules/cmd_send.jar, provider=JenkinsModuleSource())
+[23:18:44] [main/INFO]: Discovered module: ModuleSpec(name=cmd_server, file=modules/cmd_server.jar, provider=JenkinsModuleSource())
+[23:18:44] [main/INFO]: Discovered module: ModuleSpec(name=reconnect_yaml, file=modules/reconnect_yaml.jar, provider=JenkinsModuleSource())
+[23:18:44] [main/INFO]: Loaded plugin reconnect_yaml version git:reconnect_yaml:1.19-R0.1-SNAPSHOT:dca72c2:511 by WaterfallMC
+[23:18:44] [main/INFO]: Loaded plugin cmd_find version git:cmd_find:1.19-R0.1-SNAPSHOT:dca72c2:511 by WaterfallMC
+[23:18:44] [main/INFO]: Loaded plugin cmd_server version git:cmd_server:1.19-R0.1-SNAPSHOT:dca72c2:511 by WaterfallMC
+[23:18:44] [main/INFO]: Loaded plugin cmd_alert version git:cmd_alert:1.19-R0.1-SNAPSHOT:dca72c2:511 by WaterfallMC
+[23:18:44] [main/INFO]: Loaded plugin cmd_send version git:cmd_send:1.19-R0.1-SNAPSHOT:dca72c2:511 by WaterfallMC
+[23:18:44] [main/INFO]: Loaded plugin cmd_list version git:cmd_list:1.19-R0.1-SNAPSHOT:dca72c2:511 by WaterfallMC
+[23:18:44] [main/INFO] [EaglercraftXBungee]: Loading vanilla profile: lax1dude
+[23:18:50] [main/WARN] [EaglercraftXBungee]: Profile load timed out
+[23:18:50] [main/INFO]: Loaded plugin EaglercraftXBungee version 1.0.5 by lax1dude
+[23:18:50] [Skin Download Thread #1/INFO] [EaglercraftXBungee]: Loaded vanilla profile: lax1dude
+[23:18:50] [main/WARN]: Forced host server pvp is not defined
+[23:18:50] [main/INFO]: Enabled plugin reconnect_yaml version git:reconnect_yaml:1.19-R0.1-SNAPSHOT:dca72c2:511 by WaterfallMC
+[23:18:50] [main/INFO]: Enabled plugin cmd_find version git:cmd_find:1.19-R0.1-SNAPSHOT:dca72c2:511 by WaterfallMC
+[23:18:50] [main/INFO]: Enabled plugin cmd_server version git:cmd_server:1.19-R0.1-SNAPSHOT:dca72c2:511 by WaterfallMC
+[23:18:50] [main/INFO]: Enabled plugin cmd_alert version git:cmd_alert:1.19-R0.1-SNAPSHOT:dca72c2:511 by WaterfallMC
+[23:18:50] [main/INFO]: Enabled plugin cmd_send version git:cmd_send:1.19-R0.1-SNAPSHOT:dca72c2:511 by WaterfallMC
+[23:18:50] [main/INFO]: Enabled plugin cmd_list version git:cmd_list:1.19-R0.1-SNAPSHOT:dca72c2:511 by WaterfallMC
+[23:18:50] [main/ERROR] [EaglercraftXBungee]: Online mode is set to false! Authentication system has been disabled
+[23:18:50] [Netty Worker IO Thread #0/INFO] [EaglercraftXBungee]: Eaglercraft is listening on: /0.0.0.0:8081
+[23:18:52] [Netty Worker IO Thread #1/INFO] [EaglercraftXBungee]: [/172.31.128.1:38376]: Connected via websocket
+[23:18:52] [Netty Worker IO Thread #1/INFO] [EaglercraftXBungee]: [/172.31.128.1:38376]: Origin header is https://eaglercraftx--ayunami2000.repl.co
+[23:18:52] [Netty Worker IO Thread #0/WARN] [EaglercraftXBungee]: Server icon is not a file: /home/runner/eaglercraftx/bungee/server-icon.png
+[23:18:52] [Netty Worker IO Thread #1/INFO] [EaglercraftXBungee]: [/172.31.128.1:38376]: Logged in as 'voolyigg24'
+[23:18:53] [Netty Worker IO Thread #1/INFO]: [/172.31.128.1:38376|voolyigg24] -> UpstreamBridge has connected
+[23:18:53] [main/INFO] [EaglercraftXBungee]: Connected to database: jdbc:sqlite:eaglercraft_skins_cache.db
+[23:18:53] [main/INFO]: Enabled plugin EaglercraftXBungee version 1.0.5 by lax1dude
+[23:18:54] [Netty Boss IO Thread #0/INFO]: Listening on /127.0.0.1:25577
+[23:18:54] [Netty Worker IO Thread #1/WARN]: Event LoginEvent(cancelled=false, cancelReasonComponents=null, loginResult=null, connection=[/172.31.128.1:38376|voolyigg24] <-> InitialHandler) took 2,191ms to process!
+[23:18:54] [Netty Worker IO Thread #1/WARN]: Event PreLoginEvent(cancelled=false, cancelReasonComponents=null, connection=[/172.31.128.1:38376|voolyigg24] <-> InitialHandler) took 2,291ms to process!
+[23:18:54] [Netty Worker IO Thread #1/WARN]: Error occurred processing connection for voolyigg24 AnnotatedConnectException : finishConnect(..) failed: Connection refused: localhost/127.0.0.1:25565
+[23:18:54] [Netty Worker IO Thread #1/INFO]: [voolyigg24] disconnected with: Could not connect to a default or fallback server. Incorrectly configured address/port/firewall? 
+[23:18:55] [Netty Worker IO Thread #1/INFO]: [/172.31.128.1:38376|voolyigg24] -> UpstreamBridge has disconnected
+[23:19:10] [Netty Worker IO Thread #1/INFO] [EaglercraftXBungee]: [/172.31.128.1:52290]: Connected via websocket
+[23:19:10] [Netty Worker IO Thread #1/INFO] [EaglercraftXBungee]: [/172.31.128.1:52290]: Origin header is https://eaglercraftx--ayunami2000.repl.co
+[23:19:10] [Netty Worker IO Thread #1/INFO] [EaglercraftXBungee]: [/172.31.128.1:52290]: Logged in as 'voolyigg24'
+[23:19:10] [Netty Worker IO Thread #1/INFO]: [/172.31.128.1:52290|voolyigg24] -> UpstreamBridge has connected
+[23:19:11] [Netty Worker IO Thread #1/INFO]: [voolyigg24|/172.31.128.1:52290] <-> ServerConnector [lobby] has connected
+[23:21:17] [Netty Worker IO Thread #1/INFO]: [/172.31.128.1:52290|voolyigg24] -> UpstreamBridge has disconnected
+[23:21:17] [Netty Worker IO Thread #1/INFO]: [voolyigg24] disconnected with: Proxy lost connection to server.
+[23:21:17] [Netty Worker IO Thread #1/INFO]: [/172.31.128.1:52290|voolyigg24] <-> DownstreamBridge <-> [lobby] has disconnected
+[23:34:29] [Netty Worker IO Thread #0/INFO] [EaglercraftXBungee]: [/172.31.128.1:37732]: Connected via websocket
+[23:34:29] [Netty Worker IO Thread #0/INFO] [EaglercraftXBungee]: [/172.31.128.1:37732]: Origin header is https://eaglercraftx--ayunami2000.repl.co
+[23:34:30] [Netty Worker IO Thread #0/INFO] [EaglercraftXBungee]: [/172.31.128.1:37732]: Logged in as 'Zebzad0nX'
+[23:34:30] [Netty Worker IO Thread #0/INFO]: [/172.31.128.1:37732|Zebzad0nX] -> UpstreamBridge has connected
+[23:34:30] [Netty Worker IO Thread #0/INFO]: [Zebzad0nX|/172.31.128.1:37732] <-> ServerConnector [lobby] has connected
